@@ -1,0 +1,111 @@
+
+/*-----fonts----*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* common styles or utilities*/
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color:#AAAAAA;
+}
+.container{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content: center;
+
+    position: relative;
+    width: 1440px;
+    height: 3306px;
+    background: #FFFFFF;
+}
+.navbar{
+    margin-bottom: 30px;
+}
+.title{
+    position: absolute;
+    left: 8.33%;
+    right: 74.79%;
+    top: 2.63%;
+    bottom: 95.79%;
+}
+
+
+
+nav{
+    display: flex;
+    text-align: right;
+    position: absolute;
+    width: 463px;
+    height: 36px;
+    left: 857px;
+    top: 95px;
+
+
+   /* display: flex;
+    justify-content:flex-end;
+    text-align: right;*/
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+/*----heding and image----*/
+.headline{
+    position: absolute;
+    width: 582px;
+    height: 270px;
+    left: 120px;
+    top: 285px;
+
+}
+.button{
+    display: inline-block;
+    background: hotpink;
+    color:#FFFFFF;
+    text-decoration: none;
+    padding: 8px 30px;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+.background{
+    position: absolute;
+    width: 440px;
+    height: 414px;
+    left: 835px;
+    top: 211px;
+
+    background: url(images/Circle\ design.svg);
+}
+hr{
+    display: flex;
+    align-items: center;
+}
+/*--------------------------
+                   brands
+                   ----------------------------*/
+.brands{
+    margin: 100px auto;
+    position: absolute;
+    width: 1110px;
+    height: 110px;
+    left: 165px;
+    top: 725px;
+
+}
+.brand-containerL{
+    position: absolute;
+    width: 1110px;
+    height: 110px;
+    left: 165px;
+    top: 725px;
+
+}
+.brand-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
